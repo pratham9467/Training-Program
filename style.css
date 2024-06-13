@@ -147,13 +147,14 @@ ul {
 }
 
 .skills {
-    border-left: 4px solid rgb(0, 169, 244);
+    border-left: 5px solid rgb(0, 169, 244);
     box-shadow: 1px 0 1px 1px rgba(159, 152, 152, 0.33);
     height: 50px;
     width: 180px;
     text-align: center;
     padding-top: 15px;
 }
+
 
 footer {
     padding: 0 7vw;
