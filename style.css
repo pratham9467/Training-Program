@@ -43,7 +43,8 @@
 
 .roboto-thin-italic {
     font-family: "Roboto", sans-serif;
-    font-weight: 100;
+    font-weight:100;
+    font-size: 16px;
     font-style: italic;
 }
 
@@ -77,26 +78,23 @@
     font-style: italic;
 }
 
-
 header{
    background-color: white;
     box-shadow: 0 1px 2px rgba(159, 152, 152, 0.33);
     height: 12vh;
     margin-top: 2vh;
 }
-
 .lead{
     font-weight: 400;
     font-size: 18px;
     line-height: 2rem;
 }
-
 .keyFeature{
-    border: 1px solid rgba(0, 169, 244, 0.82);
-    border-radius: 5px;
+   box-shadow: 0px 1px 0px rgba(159, 152, 152, 0.33);
 }
-
-
+.text{
+    font-weight: bold;
+}
 ul{
     margin-right: -10px;
 }
@@ -106,7 +104,6 @@ ul{
     font-size: 14px;
     font-family: Roboto, serif;
 }
-
 .li:before{
     content:'✓';
     color: forestgreen;
@@ -118,6 +115,12 @@ ul{
     background-color: rgb(0, 169, 244);
     border-bottom-left-radius: 50%;
     border-top-left-radius: 50%;
+}
+.hangicon2{
+    border-top: 4px solid rgb(0, 169, 244);
+    box-shadow: 0px 1px 1px 1px rgba(159, 152, 152, 0.33);
+    margin: 20px;
+    width: 330px;
 }
 
 footer{
