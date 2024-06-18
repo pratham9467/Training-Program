@@ -3,110 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    word-wrap: break-word;
 }
 
 /* Default font size for large screens */
-body {
-    font-size: 18px;
-    text-wrap: wrap;
-}
 
-/* Smaller font size for screens less than 800px wide */
-@media (max-width: 800px) {
-    body {
-        font-size: 14px;
-        font-weight: 500;
-    }
-}
-
-/* Even smaller font size for screens less than 600px wide */
-@media (max-width: 600px) {
-    body {
-        font-size: 11px;
-        font-weight: 500;
-    }
-}
-
-/* Larger font size for screens less than 400px wide */
-@media (max-width: 400px) {
-    body {
-        font-size: 10px;
-        font-weight: 500;
-    }
-}
-
-.roboto-thin {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-size: 12px;
-}
-
-.roboto-light {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-}
-
-.roboto-regular {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.roboto-medium {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-}
-
-.roboto-bold {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-}
-
-.roboto-black {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-}
-
-.roboto-thin-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-size: 16px;
-    font-style: italic;
-}
-
-.roboto-light-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-}
-
-.roboto-regular-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-}
-
-.roboto-medium-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-}
-
-.roboto-bold-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-}
-
-.roboto-black-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-style: italic;
-}
 
 header {
     background-color: white;
@@ -219,8 +120,127 @@ ul {
     cursor: pointer;
 }
 
+.dropdown-p {
+    height: auto;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    word-wrap: break-word;
+    font-weight: 400;
+    list-style: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/*.drop-info {*/
+/*    display: none;*/
+/*}*/
+
 footer {
     padding: 0 7vw;
     background-color: rgba(0, 0, 0, 0.89);
     color: white !important;
+}
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+body {
+    font-size: 18px !important;
+    text-wrap: wrap;
+}
+
+/* Smaller font size for screens less than 800px wide */
+@media (max-width: 800px) {
+    body {
+        font-size: 14px !important;
+        font-weight: 500;
+    }
+}
+
+/* Even smaller font size for screens less than 600px wide */
+@media (max-width: 600px) {
+    body {
+        font-size: 11px !important;
+        font-weight: 500;
+    }
+}
+
+/* Larger font size for screens less than 400px wide */
+@media (max-width: 400px) {
+    body {
+        font-size: 10px !important;
+        font-weight: 500;
+    }
 }
