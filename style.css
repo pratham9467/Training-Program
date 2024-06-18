@@ -113,7 +113,7 @@ ul {
 }
 
 .dropdown-item {
-    pointer-events: none;
+    cursor: pointer;
 }
 
 .svg-pointer {
@@ -217,7 +217,7 @@ footer {
 
 
 body {
-    font-size: 18px !important;
+    font-size: 16px !important;
     text-wrap: wrap;
 }
 
