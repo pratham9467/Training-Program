@@ -5,6 +5,36 @@
     scroll-behavior: smooth;
 }
 
+/* Default font size for large screens */
+body {
+    font-size: 18px;
+    text-wrap: wrap;
+}
+
+/* Smaller font size for screens less than 800px wide */
+@media (max-width: 800px) {
+    body {
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+
+/* Even smaller font size for screens less than 600px wide */
+@media (max-width: 600px) {
+    body {
+        font-size: 11px;
+        font-weight: 500;
+    }
+}
+
+/* Larger font size for screens less than 400px wide */
+@media (max-width: 400px) {
+    body {
+        font-size: 10px;
+        font-weight: 500;
+    }
+}
+
 .roboto-thin {
     font-family: "Roboto", sans-serif;
     font-weight: 100;
@@ -155,6 +185,39 @@ ul {
     padding-top: 15px;
 }
 
+.overview {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100vw;
+}
+
+.overview-Right h1 {
+    font-weight: 400;
+}
+
+.overview-Right h1 span {
+    font-weight: 600;
+}
+
+.dropdown {
+    list-style: none;
+    overflow: hidden;
+
+}
+
+.dropdown-divider {
+    border-bottom: 1px solid lightgrey;
+
+}
+
+.dropdown-item {
+    pointer-events: none;
+}
+
+.svg-pointer {
+    cursor: pointer;
+}
 
 footer {
     padding: 0 7vw;
