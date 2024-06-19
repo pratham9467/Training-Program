@@ -129,10 +129,12 @@ ul {
     font-weight: 400;
     list-style: none;
     overflow: hidden;
+    transition: height ease-in;
    
 }
 .dropdown-p.active{
-    height: 100px;
+    height: auto;
+    
 
 }
 
