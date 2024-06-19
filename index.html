@@ -1,739 +1,1200 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-          name="viewport">
-    <meta content="ie=edge" http-equiv="X-UA-Compatible">
-    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
-    <link href="./assets/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+      name="viewport"
+    />
+    <meta content="ie=edge" http-equiv="X-UA-Compatible" />
+    <link
+      crossorigin="anonymous"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <link href="./assets/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <title>Salesforce Training Program</title>
-</head>
-<body>
-<main>
-    <!--    navbar-->
-    <header class="p-3 text-g-dark text-dark">
+  </head>
+  <body>
+    <main>
+      <!--    navbar-->
+      <header class="p-3 text-g-dark text-dark">
         <div class="container">
-            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-center">
-                <a class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none" href="/">
-                    <img alt="logo" class="bi me-4" height="32" role="img" src="assets/ilearning_logo.png" width="40">
-                </a>
+          <div
+            class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-center"
+          >
+            <a
+              class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none"
+              href="/"
+            >
+              <img
+                alt="logo"
+                class="bi me-4"
+                height="32"
+                role="img"
+                src="assets/ilearning_logo.png"
+                width="40"
+              />
+            </a>
 
-                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                    <li><a class="nav-link mx-1 px-1 roboto-regular text-secondary" href="#">Home</a></li>
-                    <li><a class="nav-link mx-1 px-1 roboto-regular text-dark" href="#">Corporate Training</a></li>
-                    <li><a class="nav-link mx-1 px-1 roboto-regular text-dark" href="#">Hire From Us</a></li>
-                    <li><a class="nav-link mx-1 px-1 roboto-regular text-dark" href="#">Explore Courses</a></li>
-                </ul>
+            <ul
+              class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
+            >
+              <li>
+                <a
+                  class="nav-link mx-1 px-1 roboto-regular text-secondary"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a class="nav-link mx-1 px-1 roboto-regular text-dark" href="#"
+                  >Corporate Training</a
+                >
+              </li>
+              <li>
+                <a class="nav-link mx-1 px-1 roboto-regular text-dark" href="#"
+                  >Hire From Us</a
+                >
+              </li>
+              <li>
+                <a class="nav-link mx-1 px-1 roboto-regular text-dark" href="#"
+                  >Explore Courses</a
+                >
+              </li>
+            </ul>
 
-                <form class="col-12 col-lg-auto mb-3 mb-lg-0 roboto-regular me-lg-3" role="search">
-                    <input aria-label="Search" class="form-control form-control-dark text-dark" placeholder="Search..."
-                           type="search">
-                </form>
+            <form
+              class="col-12 col-lg-auto mb-3 mb-lg-0 roboto-regular me-lg-3"
+              role="search"
+            >
+              <input
+                aria-label="Search"
+                class="form-control form-control-dark text-dark"
+                placeholder="Search..."
+                type="search"
+              />
+            </form>
 
-                <div class="text-end">
-                    <button class="btn btn-outline-dark me-2" type="button">Login</button>
-                    <button class="btn btn-outline-primary" type="button">Sign-up</button>
-                </div>
+            <div class="text-end">
+              <button class="btn btn-outline-dark me-2" type="button">
+                Login
+              </button>
+              <button class="btn btn-outline-primary" type="button">
+                Sign-up
+              </button>
             </div>
+          </div>
         </div>
-    </header>
+      </header>
 
-    <!--hero -->
-    <div class="container col-xxl-8 px-4 py-5">
+      <!--hero -->
+      <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-            <div class="col-10 col-sm-8 col-lg-6">
-                <img alt="Bootstrap Themes" class="d-block mx-lg-auto img-fluid" height="400"
-                     loading="lazy" src="./assets/certificate.jpg" width="600">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img
+              alt="Bootstrap Themes"
+              class="d-block mx-lg-auto img-fluid"
+              height="400"
+              loading="lazy"
+              src="./assets/certificate.jpg"
+              width="600"
+            />
+          </div>
+          <div class="col-lg-6">
+            <h2 class="display-6 fw-bold text-body-emphasis lh-1 mb-4">
+              Salesforce Certification Training Program
+            </h2>
+            <h5 class="mb-3 roboto-thin-italic">
+              Become a Salesforce Administrator by working on real-time projects
+              and case studies through this Salesforce Course in just 1.5
+              months!
+            </h5>
+            <p class="lead">
+              We are dedicated to empowering individuals and businesses through
+              comprehensive Salesforce education. As a leading EdTech company
+              specializing in Salesforce, we offer a range of plans and courses
+              designed to transform your Salesforce journey.
+            </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button class="btn btn-primary btn-lg px-4 me-md-2" type="button">
+                Enroll Now
+              </button>
+              <button
+                class="btn btn-outline-secondary btn-lg px-4 me-md-2"
+                type="button"
+              >
+                Download Brochure
+              </button>
             </div>
-            <div class="col-lg-6">
-                <h2 class="display-6 fw-bold text-body-emphasis lh-1 mb-4">Salesforce Certification Training
-                    Program</h2>
-                <h5 class="mb-3 roboto-thin-italic">Become a Salesforce Administrator by working on real-time projects
-                    and case studies through this Salesforce Course in just 1.5 months!</h5>
-                <p class="lead">We are dedicated to empowering individuals and businesses through comprehensive
-                    Salesforce education. As a leading EdTech company specializing in Salesforce, we offer a range of
-                    plans and courses designed to transform your Salesforce journey.</p>
-                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                    <button class="btn btn-primary btn-lg px-4 me-md-2" type="button">Enroll Now</button>
-                    <button class="btn btn-outline-secondary btn-lg px-4 me-md-2" type="button">Download Brochure
-                    </button>
-                </div>
-            </div>
+          </div>
         </div>
-    </div>
+      </div>
 
-    <!--    key features-->
-    <div class="container px-3 py-4 keyFeature skill" id="icon-grid">
+      <!--    key features-->
+      <div class="container px-3 py-4 keyFeature skill" id="icon-grid">
         <h3 class="pb-1">Key <span class="fw-bold">Highlights</span></h3>
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
-            <div class="col d-flex align-items-center">
-                <svg class="bi bi-pip text-body-secondary flex-shrink-0 me-3" fill="rgb(0, 169, 244)" height="1.75em"
-                     viewBox="0 0 16 16"
-                     width="1.75em" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5z"/>
-                    <path d="M8 8.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5h-5a.5.5 0 0 1-.5-.5z"/>
-                </svg>
-                <div>
-                    <h6 class="fw-medium mb-0 text-body-emphasis">36 Hrs Instructor Led Training</h6>
-                </div>
+        <div
+          class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5"
+        >
+          <div class="col d-flex align-items-center">
+            <svg
+              class="bi bi-pip text-body-secondary flex-shrink-0 me-3"
+              fill="rgb(0, 169, 244)"
+              height="1.75em"
+              viewBox="0 0 16 16"
+              width="1.75em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5z"
+              />
+              <path
+                d="M8 8.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5h-5a.5.5 0 0 1-.5-.5z"
+              />
+            </svg>
+            <div>
+              <h6 class="fw-medium mb-0 text-body-emphasis">
+                36 Hrs Instructor Led Training
+              </h6>
             </div>
-            <div class="col d-flex align-items-center">
-                <svg class="bi bi-person-circle text-body-secondary flex-shrink-0 me-3" fill="rgb(0, 169, 244)"
-                     height="1.75em" viewBox="0 0 16 16"
-                     width="1.75em" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
-                    <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"
-                          fill-rule="evenodd"/>
-                </svg>
-                <div>
-                    <h6 class="fw-medium mb-0 text-body-emphasis">Hands-on: Creating Salesforce Account</h6>
-                </div>
+          </div>
+          <div class="col d-flex align-items-center">
+            <svg
+              class="bi bi-person-circle text-body-secondary flex-shrink-0 me-3"
+              fill="rgb(0, 169, 244)"
+              height="1.75em"
+              viewBox="0 0 16 16"
+              width="1.75em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+              <path
+                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"
+                fill-rule="evenodd"
+              />
+            </svg>
+            <div>
+              <h6 class="fw-medium mb-0 text-body-emphasis">
+                Hands-on: Creating Salesforce Account
+              </h6>
             </div>
-            <div class="col d-flex align-items-center">
-                <svg class="bi bi-rocket-takeoff text-body-secondary flex-shrink-0 me-3" fill="rgb(0, 169, 244)"
-                     height="1.75em" viewBox="0 0 16 16"
-                     width="1.75em" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M9.752 6.193c.599.6 1.73.437 2.528-.362s.96-1.932.362-2.531c-.599-.6-1.73-.438-2.528.361-.798.8-.96 1.933-.362 2.532"/>
-                    <path d="M15.811 3.312c-.363 1.534-1.334 3.626-3.64 6.218l-.24 2.408a2.56 2.56 0 0 1-.732 1.526L8.817 15.85a.51.51 0 0 1-.867-.434l.27-1.899c.04-.28-.013-.593-.131-.956a9 9 0 0 0-.249-.657l-.082-.202c-.815-.197-1.578-.662-2.191-1.277-.614-.615-1.079-1.379-1.275-2.195l-.203-.083a10 10 0 0 0-.655-.248c-.363-.119-.675-.172-.955-.132l-1.896.27A.51.51 0 0 1 .15 7.17l2.382-2.386c.41-.41.947-.67 1.524-.734h.006l2.4-.238C9.005 1.55 11.087.582 12.623.208c.89-.217 1.59-.232 2.08-.188.244.023.435.06.57.093q.1.026.16.045c.184.06.279.13.351.295l.029.073a3.5 3.5 0 0 1 .157.721c.055.485.051 1.178-.159 2.065m-4.828 7.475.04-.04-.107 1.081a1.54 1.54 0 0 1-.44.913l-1.298 1.3.054-.38c.072-.506-.034-.993-.172-1.418a9 9 0 0 0-.164-.45c.738-.065 1.462-.38 2.087-1.006M5.205 5c-.625.626-.94 1.351-1.004 2.09a9 9 0 0 0-.45-.164c-.424-.138-.91-.244-1.416-.172l-.38.054 1.3-1.3c.245-.246.566-.401.91-.44l1.08-.107zm9.406-3.961c-.38-.034-.967-.027-1.746.163-1.558.38-3.917 1.496-6.937 4.521-.62.62-.799 1.34-.687 2.051.107.676.483 1.362 1.048 1.928.564.565 1.25.941 1.924 1.049.71.112 1.429-.067 2.048-.688 3.079-3.083 4.192-5.444 4.556-6.987.183-.771.18-1.345.138-1.713a3 3 0 0 0-.045-.283 3 3 0 0 0-.3-.041Z"/>
-                    <path d="M7.009 12.139a7.6 7.6 0 0 1-1.804-1.352A7.6 7.6 0 0 1 3.794 8.86c-1.102.992-1.965 5.054-1.839 5.18.125.126 3.936-.896 5.054-1.902Z"/>
-                </svg>
-                <div>
-                    <h6 class="fw-medium mb-0 text-body-emphasis">52 Hrs Project & Exercises</h6>
-                </div>
+          </div>
+          <div class="col d-flex align-items-center">
+            <svg
+              class="bi bi-rocket-takeoff text-body-secondary flex-shrink-0 me-3"
+              fill="rgb(0, 169, 244)"
+              height="1.75em"
+              viewBox="0 0 16 16"
+              width="1.75em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9.752 6.193c.599.6 1.73.437 2.528-.362s.96-1.932.362-2.531c-.599-.6-1.73-.438-2.528.361-.798.8-.96 1.933-.362 2.532"
+              />
+              <path
+                d="M15.811 3.312c-.363 1.534-1.334 3.626-3.64 6.218l-.24 2.408a2.56 2.56 0 0 1-.732 1.526L8.817 15.85a.51.51 0 0 1-.867-.434l.27-1.899c.04-.28-.013-.593-.131-.956a9 9 0 0 0-.249-.657l-.082-.202c-.815-.197-1.578-.662-2.191-1.277-.614-.615-1.079-1.379-1.275-2.195l-.203-.083a10 10 0 0 0-.655-.248c-.363-.119-.675-.172-.955-.132l-1.896.27A.51.51 0 0 1 .15 7.17l2.382-2.386c.41-.41.947-.67 1.524-.734h.006l2.4-.238C9.005 1.55 11.087.582 12.623.208c.89-.217 1.59-.232 2.08-.188.244.023.435.06.57.093q.1.026.16.045c.184.06.279.13.351.295l.029.073a3.5 3.5 0 0 1 .157.721c.055.485.051 1.178-.159 2.065m-4.828 7.475.04-.04-.107 1.081a1.54 1.54 0 0 1-.44.913l-1.298 1.3.054-.38c.072-.506-.034-.993-.172-1.418a9 9 0 0 0-.164-.45c.738-.065 1.462-.38 2.087-1.006M5.205 5c-.625.626-.94 1.351-1.004 2.09a9 9 0 0 0-.45-.164c-.424-.138-.91-.244-1.416-.172l-.38.054 1.3-1.3c.245-.246.566-.401.91-.44l1.08-.107zm9.406-3.961c-.38-.034-.967-.027-1.746.163-1.558.38-3.917 1.496-6.937 4.521-.62.62-.799 1.34-.687 2.051.107.676.483 1.362 1.048 1.928.564.565 1.25.941 1.924 1.049.71.112 1.429-.067 2.048-.688 3.079-3.083 4.192-5.444 4.556-6.987.183-.771.18-1.345.138-1.713a3 3 0 0 0-.045-.283 3 3 0 0 0-.3-.041Z"
+              />
+              <path
+                d="M7.009 12.139a7.6 7.6 0 0 1-1.804-1.352A7.6 7.6 0 0 1 3.794 8.86c-1.102.992-1.965 5.054-1.839 5.18.125.126 3.936-.896 5.054-1.902Z"
+              />
+            </svg>
+            <div>
+              <h6 class="fw-medium mb-0 text-body-emphasis">
+                52 Hrs Project & Exercises
+              </h6>
             </div>
-            <div class="col d-flex align-items-center">
-                <svg class="bi bi-award text-body-secondary flex-shrink-0 me-3 ms-lg-4" fill="rgb(0, 169, 244)"
-                     height="1.75em" viewBox="0 0 16 16"
-                     width="1.75em" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702z"/>
-                    <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z"/>
-                </svg>
-                <div>
-                    <h6 class="fw-medium mb-0 text-body-emphasis">Certification</h6>
-                </div>
+          </div>
+          <div class="col d-flex align-items-center">
+            <svg
+              class="bi bi-award text-body-secondary flex-shrink-0 me-3 ms-lg-4"
+              fill="rgb(0, 169, 244)"
+              height="1.75em"
+              viewBox="0 0 16 16"
+              width="1.75em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702z"
+              />
+              <path
+                d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z"
+              />
+            </svg>
+            <div>
+              <h6 class="fw-medium mb-0 text-body-emphasis">Certification</h6>
             </div>
-            <div class="col d-flex align-items-center">
-                <svg class="bi bi-briefcase text-body-secondary flex-shrink-0 me-3" fill="rgb(0, 169, 244)"
-                     height="1.75em"
-                     viewBox="0 0 16 16" width="1.75em" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v1.384l7.614 2.03a1.5 1.5 0 0 0 .772 0L16 5.884V4.5A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5"/>
-                    <path d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5V6.85L8.129 8.947a.5.5 0 0 1-.258 0L0 6.85z"/>
-                </svg>
-                <div>
-                    <h6 class="fw-medium mb-0 text-body-emphasis">Job Assistance</h6>
-                </div>
+          </div>
+          <div class="col d-flex align-items-center">
+            <svg
+              class="bi bi-briefcase text-body-secondary flex-shrink-0 me-3"
+              fill="rgb(0, 169, 244)"
+              height="1.75em"
+              viewBox="0 0 16 16"
+              width="1.75em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v1.384l7.614 2.03a1.5 1.5 0 0 0 .772 0L16 5.884V4.5A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5"
+              />
+              <path
+                d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5V6.85L8.129 8.947a.5.5 0 0 1-.258 0L0 6.85z"
+              />
+            </svg>
+            <div>
+              <h6 class="fw-medium mb-0 text-body-emphasis">Job Assistance</h6>
             </div>
-            <div class="col d-flex align-items-center">
-                <svg class="bi bi-alarm text-body-secondary flex-shrink-0 me-3 " fill="rgb(0, 169, 244)" height="1.75em"
-                     viewBox="0 0 16 16"
-                     width="1.75em" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9z"/>
-                    <path d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1zm1.038 3.018a6 6 0 0 1 .924 0 6 6 0 1 1-.924 0M0 3.5c0 .753.333 1.429.86 1.887A8.04 8.04 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5M13.5 1c-.753 0-1.429.333-1.887.86a8.04 8.04 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1"/>
-                </svg>
-                <div>
-                    <h6 class="fw-medium mb-0 text-body-emphasis">Flexible Schedule</h6>
-                </div>
+          </div>
+          <div class="col d-flex align-items-center">
+            <svg
+              class="bi bi-alarm text-body-secondary flex-shrink-0 me-3"
+              fill="rgb(0, 169, 244)"
+              height="1.75em"
+              viewBox="0 0 16 16"
+              width="1.75em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9z"
+              />
+              <path
+                d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1zm1.038 3.018a6 6 0 0 1 .924 0 6 6 0 1 1-.924 0M0 3.5c0 .753.333 1.429.86 1.887A8.04 8.04 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5M13.5 1c-.753 0-1.429.333-1.887.86a8.04 8.04 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1"
+              />
+            </svg>
+            <div>
+              <h6 class="fw-medium mb-0 text-body-emphasis">
+                Flexible Schedule
+              </h6>
             </div>
-            <div class="col d-flex align-items-center">
-                <svg class="bi bi-infinity text-body-secondary flex-shrink-0 me-3" fill="rgb(0, 169, 244)"
-                     height="1.75em" viewBox="0 0 16 16"
-                     width="1.75em" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M5.68 5.792 7.345 7.75 5.681 9.708a2.75 2.75 0 1 1 0-3.916ZM8 6.978 6.416 5.113l-.014-.015a3.75 3.75 0 1 0 0 5.304l.014-.015L8 8.522l1.584 1.865.014.015a3.75 3.75 0 1 0 0-5.304l-.014.015zm.656.772 1.663-1.958a2.75 2.75 0 1 1 0 3.916z"/>
-                </svg>
-                <div>
-                    <h6 class="fw-medium mb-0 text-body-emphasis">Lifetime Free Upgrade</h6>
-                </div>
+          </div>
+          <div class="col d-flex align-items-center">
+            <svg
+              class="bi bi-infinity text-body-secondary flex-shrink-0 me-3"
+              fill="rgb(0, 169, 244)"
+              height="1.75em"
+              viewBox="0 0 16 16"
+              width="1.75em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5.68 5.792 7.345 7.75 5.681 9.708a2.75 2.75 0 1 1 0-3.916ZM8 6.978 6.416 5.113l-.014-.015a3.75 3.75 0 1 0 0 5.304l.014-.015L8 8.522l1.584 1.865.014.015a3.75 3.75 0 1 0 0-5.304l-.014.015zm.656.772 1.663-1.958a2.75 2.75 0 1 1 0 3.916z"
+              />
+            </svg>
+            <div>
+              <h6 class="fw-medium mb-0 text-body-emphasis">
+                Lifetime Free Upgrade
+              </h6>
             </div>
-            <div class="col d-flex align-items-center">
-                <svg class="bi bi-telephone-outbound-fill text-body-secondary flex-shrink-0 me-3 ms-lg-4"
-                     fill="rgb(0, 169, 244)" height="1.35em" viewBox="0 0 16 16"
-                     width="1.35em"
-                     xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5"
-                          fill-rule="evenodd"/>
-                </svg>
-                <div>
-                    <h6 class="fw-medium mb-0 text-body-emphasis">Mentor Support</h6>
-                </div>
+          </div>
+          <div class="col d-flex align-items-center">
+            <svg
+              class="bi bi-telephone-outbound-fill text-body-secondary flex-shrink-0 me-3 ms-lg-4"
+              fill="rgb(0, 169, 244)"
+              height="1.35em"
+              viewBox="0 0 16 16"
+              width="1.35em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5"
+                fill-rule="evenodd"
+              />
+            </svg>
+            <div>
+              <h6 class="fw-medium mb-0 text-body-emphasis">Mentor Support</h6>
             </div>
+          </div>
         </div>
-    </div>
+      </div>
 
-    <!--    navigator-->
-    <div class="p-3 pb-0 text-g-dark text-dark">
+      <!--    navigator-->
+      <div class="p-3 pb-0 text-g-dark text-dark">
         <div class="container">
-            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-center">
-                <a class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none" href="/">
-                </a>
+          <div
+            class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-center"
+          >
+            <a
+              class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none"
+              href="/"
+            >
+            </a>
 
-
-                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                    <li><a class="nav-link px-1 roboto-regular text-dark" href="#">Overview</a></li>
-                    <li><a class="nav-link mx-1 px-1 roboto-regular text-dark" href="#">Fees</a></li>
-                    <li><a class="nav-link mx-1 px-1 roboto-regular text-dark" href="#">Curriculums</a></li>
-                    <li><a class="nav-link mx-1 px-1 roboto-regular text-dark" href="#">Certification</a></li>
-                    <li><a class="nav-link mx-1 px-1 roboto-regular text-dark" href="#">Reviews</a></li>
-                    <li><a class="nav-link mx-1 px-1 roboto-regular text-dark" href="#">FAQs</a></li>
-                </ul>
-                <div class="text-end">
-                    <button class="btn btn-outline-primary p-1 m-0" type="button">Enroll Now</button>
-                </div>
+            <ul
+              class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
+            >
+              <li>
+                <a class="nav-link px-1 roboto-regular text-dark" href="#"
+                  >Overview</a
+                >
+              </li>
+              <li>
+                <a class="nav-link mx-1 px-1 roboto-regular text-dark" href="#"
+                  >Fees</a
+                >
+              </li>
+              <li>
+                <a class="nav-link mx-1 px-1 roboto-regular text-dark" href="#"
+                  >Curriculums</a
+                >
+              </li>
+              <li>
+                <a class="nav-link mx-1 px-1 roboto-regular text-dark" href="#"
+                  >Certification</a
+                >
+              </li>
+              <li>
+                <a class="nav-link mx-1 px-1 roboto-regular text-dark" href="#"
+                  >Reviews</a
+                >
+              </li>
+              <li>
+                <a class="nav-link mx-1 px-1 roboto-regular text-dark" href="#"
+                  >FAQs</a
+                >
+              </li>
+            </ul>
+            <div class="text-end">
+              <button class="btn btn-outline-primary p-1 m-0" type="button">
+                Enroll Now
+              </button>
             </div>
+          </div>
         </div>
-    </div>
+      </div>
 
-<!-- overview -->
-    <div class="container px-4 py-5 overview">
-        <div class="overview-Right"><h1 class="mb-4">Salesforce Certification Training Course <span
-                class="text text-wrap">Overview</span></h1>
-            <p>iLearnings offers both live instructor-led classroom training and self-paced online training for you to
-                become a Salesforce administrator or consultant. You will be fully trained in handling the Salesforce
-                instance, platform, database, application design, platform configuration, automation processes, project
-                management, application development using Lightning, and more in this Salesforce Training Program
-                Course.</p>
+      <!-- overview -->
+      <div class="container px-4 py-5 overview">
+        <div class="overview-Right">
+          <h1 class="mb-4">
+            Salesforce Certification Training Course
+            <span class="text text-wrap">Overview</span>
+          </h1>
+          <p>
+            iLearnings offers both live instructor-led classroom training and
+            self-paced online training for you to become a Salesforce
+            administrator or consultant. You will be fully trained in handling
+            the Salesforce instance, platform, database, application design,
+            platform configuration, automation processes, project management,
+            application development using Lightning, and more in this Salesforce
+            Training Program Course.
+          </p>
 
-            <div class="d-flex flex-column flex-md-row gap-3 py-md-5 flex-wrap align-items-center justify-content-center">
-                <ul class="dropdown position-static d-grid gap-1 p-2 px-0 rounded-0 mx-0 shadow w-100"
-                    data-bs-theme="light">
-                    <li class="d-flex align-items-center"><a class="dropdown-item rounded-0 p-2 fw-medium">Why are
-                        Salesforce
-                        Certifications
-                        important?</a>
-                        <svg class="bi bi-chevron-down me-3 svg-pointer drop-icon" fill="currentColor" height="16"
-                             viewBox="0 0 16 16"
-                             width="16" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
-                                  fill-rule="evenodd"/>
-                        </svg>
-                    </li>
+          <div
+            class="d-flex flex-column flex-md-row gap-3 py-md-5 flex-wrap align-items-center justify-content-center"
+          >
+            <ul
+              class="dropdown position-static d-grid gap-1 p-2 px-0 rounded-0 mx-0 shadow w-100"
+              data-bs-theme="light"
+            >
+              <li class="d-flex align-items-center">
+                <a class="dropdown-item rounded-0 p-2 fw-medium"
+                  >Why are Salesforce Certifications important?</a
+                >
+                <svg
+                  class="bi bi-chevron-down me-3 svg-pointer drop-icon"
+                  fill="currentColor"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </li>
 
-                    <li class="drop-info">
-                        <p class="dropdown-p p-2 py-0 mb-2">Salesforce Certifications aren’t just ordinary certifications. They
-                            are
-                            recognized in the
-                            industry and verify that the person is skilled in a specific Salesforce field. There are
-                            many Salesforce Certifications available in various fields, for people who wish to be
-                            skilled in those areas or want to start a career in that field. Salesforce Certifications
-                            are available for IT as well as non-IT professionals.</p>
-                    </li>
-                    <li>
-                        <hr class="dropdown-divider drop-info">
-                    </li>
-                    <li class="d-flex align-items-center"><a class="dropdown-item rounded-0 p-2 fw-medium">What are the
-                        prerequisites for taking this
-                        Salesforce Certification Course?
-                    </a>
-                        <svg class="bi bi-chevron-down me-3 svg-pointer drop-icon drop-icon" fill="currentColor" height="16"
-                             viewBox="0 0 16 16"
-                             width="16" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
-                                  fill-rule="evenodd"/>
-                        </svg>
-                    </li>
-                    
-                    <li class="drop-info">
-                        <p class="dropdown-p p-2 py-0 mb-2">There are no specific prerequisites for joining this Salesforce Developer Training Course. Anybody can opt for this Salesforce Admin Certification. However, prior knowledge of any CRM software, as well as previous work as a developer or administrator, will undoubtedly accelerate your learning in this area.</p>
-                    </li>
-                    <li>
-                        <hr class="dropdown-divider drop-info">
-                    </li>
-                    <li class="d-flex align-items-center"><a class="dropdown-item rounded-0 p-2 fw-medium"> What will
-                        you learn in this Salesforce
-                        Training
-                        Online?</a>
-                        <svg class="bi bi-chevron-down me-3 svg-pointer drop-icon drop-icon" fill="currentColor" height="16"
-                             viewBox="0 0 16 16"
-                             width="16" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
-                                  fill-rule="evenodd"/>
-                        </svg>
-                    </li>
-                    
-                    <li class="drop-info">
-                        <p class="dropdown-p p-2 py-0 mb-2">This Salesforce Developer Training for app builder and administrator is specifically designed by SMEs to give you hands-on experience in the following topics:<br><br>
+              <li class="drop-info">
+                <p class="dropdown-p p-2 py-0 mb-2">
+                  Salesforce Certifications aren’t just ordinary certifications.
+                  They are recognized in the industry and verify that the person
+                  is skilled in a specific Salesforce field. There are many
+                  Salesforce Certifications available in various fields, for
+                  people who wish to be skilled in those areas or want to start
+                  a career in that field. Salesforce Certifications are
+                  available for IT as well as non-IT professionals.
+                </p>
+              </li>
+              <li>
+                <hr class="dropdown-divider drop-info" />
+              </li>
+              <li class="d-flex align-items-center">
+                <a class="dropdown-item rounded-0 p-2 fw-medium"
+                  >What are the prerequisites for taking this Salesforce
+                  Certification Course?
+                </a>
+                <svg
+                  class="bi bi-chevron-down me-3 svg-pointer drop-icon drop-icon"
+                  fill="currentColor"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </li>
 
-                            1. Salesforce CRM and its features<br>
-                            2. Salesforce objects, field types, and validation rules<br>
-                            3. Data modeling and management<br>
-                            4. Setup and user management<br>
-                            5. Security and data access<br>
-                            6. Workflow automation<br>
-                            7. Sales and service cloud configuration<br>
-                            8. Lightning components installation<br>
-                            9. Salesforce interface<br>
-                            10. Application deployment and Force.com platform change management<br>
-                            11. Application development by leveraging the declarative interface<br>
-                            12. User interface configuration<br>
-                            13. Preparing for Salesforce Administration (ADM 201) and App Builder Certification exams.</p>
-                    </li>
-                    <li>
-                        <hr class="dropdown-divider">
-                    </li>
-                    <li class="d-flex align-items-center"><a class="dropdown-item rounded-0 p-2 fw-medium" >Why
-                        should you take the Salesforce
-                        Certifications?</a>
-                        <svg class="bi bi-chevron-down me-3 svg-pointer drop-icon drop-icon" fill="currentColor" height="16"
-                             viewBox="0 0 16 16"
-                             width="16" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
-                                  fill-rule="evenodd"/>
-                        </svg>
-                    </li>
-                    
-                    <li class="drop-info">
-                        <p class="dropdown-p p-2 py-0 mb-2">You should take this Salesforce Certification Training because:<br>
+              <li class="drop-info">
+                <p class="dropdown-p p-2 py-0 mb-2">
+                  There are no specific prerequisites for joining this
+                  Salesforce Developer Training Course. Anybody can opt for this
+                  Salesforce Admin Certification. However, prior knowledge of
+                  any CRM software, as well as previous work as a developer or
+                  administrator, will undoubtedly accelerate your learning in
+                  this area.
+                </p>
+              </li>
+              <li>
+                <hr class="dropdown-divider drop-info" />
+              </li>
+              <li class="d-flex align-items-center">
+                <a class="dropdown-item rounded-0 p-2 fw-medium">
+                  What will you learn in this Salesforce Training Online?</a
+                >
+                <svg
+                  class="bi bi-chevron-down me-3 svg-pointer drop-icon drop-icon"
+                  fill="currentColor"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </li>
 
-                            • According to Statista, the market for CRM software will grow from US$36.9 billion in 2020 to US$40.26 billion in 2023.<br>
-                            • It leads the CRM market with 19.5% of the market share – Forbes.<br>
-                            • Salesforce developers in the United States can earn up to US$100,000/year – Indeed.<br>
-                            This is the most widely used CRM software in the world, which is accessible through a cloud platform and can be used on every device. Because of this and its extensive capabilities throughout the life cycle of sales, marketing, and customer relationships, the demand for Salesforce developers and administrators is growing.
-                            <br>
-                            ilearning Salesforce Administrator Certification Course gives you knowledge and hands-on experience in this CRM tool. You will also work on real-world industry-specific projects that can ensure an ideal job for you.</p>
-                    </li>
-                    <li>
-                        <hr class="dropdown-divider">
-                    </li>
-                    <li class="d-flex align-items-center"><a class="dropdown-item rounded-0 p-2 fw-medium">How
-                        to get certified in
-                        Salesforce?</a>
-                        <svg class="bi bi-chevron-down me-3 svg-pointer drop-icon drop-icon" fill="currentColor" height="16"
-                             viewBox="0 0 16 16"
-                             width="16" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
-                                  fill-rule="evenodd"/>
-                        </svg>
-                    </li>
-                   
-                    <li class="drop-info">
-                        <p class="dropdown-p p-2 py-0 mb-2">To get certified in Salesforce, one needs to undergo training from a recognized institute to clear the main certification exam from Salesforce. Candidates can start with the basic level certifications like the Certified Administrator exam or the Platform App Builder. ilearnings offers training for clearing all the certification exams by Salesforce.</p>
-                    </li>
-                </ul>
-            </div>
+              <li class="drop-info">
+                <p class="dropdown-p p-2 py-0 mb-2">
+                  This Salesforce Developer Training for app builder and
+                  administrator is specifically designed by SMEs to give you
+                  hands-on experience in the following topics:<br /><br />
+
+                  1. Salesforce CRM and its features<br />
+                  2. Salesforce objects, field types, and validation rules<br />
+                  3. Data modeling and management<br />
+                  4. Setup and user management<br />
+                  5. Security and data access<br />
+                  6. Workflow automation<br />
+                  7. Sales and service cloud configuration<br />
+                  8. Lightning components installation<br />
+                  9. Salesforce interface<br />
+                  10. Application deployment and Force.com platform change
+                  management<br />
+                  11. Application development by leveraging the declarative
+                  interface<br />
+                  12. User interface configuration<br />
+                  13. Preparing for Salesforce Administration (ADM 201) and App
+                  Builder Certification exams.
+                </p>
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li class="d-flex align-items-center">
+                <a class="dropdown-item rounded-0 p-2 fw-medium"
+                  >Why should you take the Salesforce Certifications?</a
+                >
+                <svg
+                  class="bi bi-chevron-down me-3 svg-pointer drop-icon drop-icon"
+                  fill="currentColor"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </li>
+
+              <li class="drop-info">
+                <p class="dropdown-p p-2 py-0 mb-2">
+                  You should take this Salesforce Certification Training
+                  because:<br />
+
+                  • According to Statista, the market for CRM software will grow
+                  from US$36.9 billion in 2020 to US$40.26 billion in 2023.<br />
+                  • It leads the CRM market with 19.5% of the market share –
+                  Forbes.<br />
+                  • Salesforce developers in the United States can earn up to
+                  US$100,000/year – Indeed.<br />
+                  This is the most widely used CRM software in the world, which
+                  is accessible through a cloud platform and can be used on
+                  every device. Because of this and its extensive capabilities
+                  throughout the life cycle of sales, marketing, and customer
+                  relationships, the demand for Salesforce developers and
+                  administrators is growing.
+                  <br />
+                  ilearning Salesforce Administrator Certification Course gives
+                  you knowledge and hands-on experience in this CRM tool. You
+                  will also work on real-world industry-specific projects that
+                  can ensure an ideal job for you.
+                </p>
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li class="d-flex align-items-center">
+                <a class="dropdown-item rounded-0 p-2 fw-medium"
+                  >How to get certified in Salesforce?</a
+                >
+                <svg
+                  class="bi bi-chevron-down me-3 svg-pointer drop-icon drop-icon"
+                  fill="currentColor"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </li>
+
+              <li class="drop-info">
+                <p class="dropdown-p p-2 py-0 mb-2">
+                  To get certified in Salesforce, one needs to undergo training
+                  from a recognized institute to clear the main certification
+                  exam from Salesforce. Candidates can start with the basic
+                  level certifications like the Certified Administrator exam or
+                  the Platform App Builder. ilearnings offers training for
+                  clearing all the certification exams by Salesforce.
+                </p>
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="overview-left"></div>
-    </div>
-    <!--who can enroll in course-->
-    <div class="container my-5">
-        <div class="row pb-0 pe-lg-0 align-items-center rounded-3 border shadow-lg">
-            <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
-                <h2 class="display-4 fw-bold lh-1 text-body-emphasis mb-5"><span class="fw-light text">Who can go for this</span>
-                    Salesforce Course?</h2>
-                <ul class="m-0">
-                    <li class="li">Salesforce professionals, software administrators, app builders.</li>
-                    <li class="li">Developers, analysts, IT managers.</li>
-                    <li class="li">Sales managers, executives, and anyone who is willing to learn the Salesforce CRM
-                    </li>
-                </ul>
-                <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
-                </div>
-            </div>
-            <div class="col-lg-4 offset-lg-1 p-0 img1 overflow-hidden shadow-lg">
-                <img alt="image" class="rounded-lg-3" height="420" src="./assets/Ms.poorva.png" width="auto">
-            </div>
+      </div>
+      <!--who can enroll in course-->
+      <div class="container my-5">
+        <div
+          class="row pb-0 pe-lg-0 align-items-center rounded-3 border shadow-lg"
+        >
+          <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+            <h2 class="display-4 fw-bold lh-1 text-body-emphasis mb-5">
+              <span class="fw-light text">Who can go for this</span> Salesforce
+              Course?
+            </h2>
+            <ul class="m-0">
+              <li class="li">
+                Salesforce professionals, software administrators, app builders.
+              </li>
+              <li class="li">Developers, analysts, IT managers.</li>
+              <li class="li">
+                Sales managers, executives, and anyone who is willing to learn
+                the Salesforce CRM
+              </li>
+            </ul>
+            <div
+              class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3"
+            ></div>
+          </div>
+          <div class="col-lg-4 offset-lg-1 p-0 img1 overflow-hidden shadow-lg">
+            <img
+              alt="image"
+              class="rounded-lg-3"
+              height="420"
+              src="./assets/Ms.poorva.png"
+              width="auto"
+            />
+          </div>
         </div>
-    </div>
+      </div>
 
-    <!--    skills section-->
-    <div class="container px-4 py-5 skill">
+      <!--    skills section-->
+      <div class="container px-4 py-5 skill">
         <h2 class="pb-1">Skills <span class="text">Covered</span></h2>
 
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-lg-5 g-5 py-5">
-            <div class="col d-flex align-items-start">
-                <div>
-                    <h6 class="mb-0 text-body-emphasis skills">App Development</h6>
-                </div>
+        <div
+          class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-lg-5 g-5 py-5"
+        >
+          <div class="col d-flex align-items-start">
+            <div>
+              <h6 class="mb-0 text-body-emphasis skills">App Development</h6>
             </div>
-            <div class="col d-flex align-items-start">
-                <div>
-                    <h6 class="mb-0 text-body-emphasis skills">Server-side Controller</h6>
-                </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div>
+              <h6 class="mb-0 text-body-emphasis skills">
+                Server-side Controller
+              </h6>
             </div>
-            <div class="col d-flex align-items-start">
-                <div>
-                    <h6 class="mb-0 text-body-emphasis skills">Apex</h6>
-                </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div>
+              <h6 class="mb-0 text-body-emphasis skills">Apex</h6>
             </div>
-            <div class="col d-flex align-items-start">
-                <div>
-                    <h6 class=" mb-0 text-body-emphasis skills">Schema Builder</h6>
-                </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div>
+              <h6 class="mb-0 text-body-emphasis skills">Schema Builder</h6>
             </div>
-            <div class="col d-flex align-items-start">
-                <div>
-                    <h6 class=" mb-0 text-body-emphasis skills">Link Units</h6>
-                </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div>
+              <h6 class="mb-0 text-body-emphasis skills">Link Units</h6>
             </div>
-            <div class="col d-flex align-items-start">
-                <div>
-                    <h6 class="mb-0 text-body-emphasis skills">Quote Templates</h6>
-                </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div>
+              <h6 class="mb-0 text-body-emphasis skills">Quote Templates</h6>
             </div>
-            <div class="col d-flex align-items-start">
-                <div>
-                    <h6 class="mb-0 text-body-emphasis skills">Custom Buttons</h6>
-                </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div>
+              <h6 class="mb-0 text-body-emphasis skills">Custom Buttons</h6>
             </div>
-            <div class="col d-flex align-items-start">
-                <div>
-                    <h6 class="mb-0 text-body-emphasis skills">Process Builder</h6>
-                </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div>
+              <h6 class="mb-0 text-body-emphasis skills">Process Builder</h6>
             </div>
-            <div class="col d-flex align-items-start">
-                <div>
-                    <h6 class=" mb-0 text-body-emphasis skills">Java Swing</h6>
-                </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div>
+              <h6 class="mb-0 text-body-emphasis skills">Java Swing</h6>
             </div>
-            <div class="col d-flex align-items-start">
-                <div>
-                    <h6 class="mb-0 text-body-emphasis skills"> Salesforce Workflow</h6>
-                </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div>
+              <h6 class="mb-0 text-body-emphasis skills">
+                Salesforce Workflow
+              </h6>
             </div>
+          </div>
         </div>
-    </div>
+      </div>
 
-    <!--    project-->
-    <div class="container px-4 py-5" id="hanging-icons">
+      <!--    project-->
+      <div class="container px-4 py-5" id="hanging-icons">
         <h2 class="pb-2">Salesforce <span class="text">Projects</span></h2>
         <div class="projects">
-            <div class="ms-4 border-end">
-                <svg class="bi bi-tools me-2" fill="rgb(0, 169, 244)" height="1.85em" viewBox="0 0 16 16"
-                     width="1.85em" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.27 3.27a.997.997 0 0 0 1.414 0l1.586-1.586a.997.997 0 0 0 0-1.414l-3.27-3.27a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3q0-.405-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814zm9.646 10.646a.5.5 0 0 1 .708 0l2.914 2.915a.5.5 0 0 1-.707.707l-2.915-2.914a.5.5 0 0 1 0-.708M3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026z"/>
-                </svg>
-                Practice Essential Tools
-            </div>
-            <div class="ms-4 border-end">
-                <svg class="bi bi-people-fill me-2" fill="rgb(0, 169, 244)" height="1.85em" viewBox="0 0 16 16"
-                     width="1.85em" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
-                </svg>
-                Designed By Industry Experts
-            </div>
-            <div class="ms-4">
-                <svg class="bi bi-globe-central-south-asia me-2" fill="rgb(0, 169, 244)" height="1.85em"
-                     viewBox="0 0 16 16"
-                     width="1.85em" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0M4.882 1.731a.48.48 0 0 0 .14.291.487.487 0 0 1-.126.78l-.291.146a.7.7 0 0 0-.188.135l-.48.48a1 1 0 0 1-1.023.242l-.02-.007a1 1 0 0 0-.462-.04 7 7 0 0 1 2.45-2.027m-3 9.674.86-.216a1 1 0 0 0 .758-.97v-.184a1 1 0 0 1 .445-.832l.04-.026a1 1 0 0 0 .152-1.54L3.121 6.621a.414.414 0 0 1 .542-.624l1.09.818a.5.5 0 0 0 .523.047.5.5 0 0 1 .724.447v.455a.8.8 0 0 0 .131.433l.795 1.192a1 1 0 0 1 .116.238l.73 2.19a1 1 0 0 0 .949.683h.058a1 1 0 0 0 .949-.684l.73-2.189a1 1 0 0 1 .116-.238l.791-1.187A.45.45 0 0 1 11.743 8c.16 0 .306.084.392.218.557.875 1.63 2.282 2.365 2.282l.04-.001a7.003 7.003 0 0 1-12.658.905Z"/>
-                </svg>
-                Get Real-world Experience
-            </div>
+          <div class="ms-4 border-end">
+            <svg
+              class="bi bi-tools me-2"
+              fill="rgb(0, 169, 244)"
+              height="1.85em"
+              viewBox="0 0 16 16"
+              width="1.85em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.27 3.27a.997.997 0 0 0 1.414 0l1.586-1.586a.997.997 0 0 0 0-1.414l-3.27-3.27a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3q0-.405-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814zm9.646 10.646a.5.5 0 0 1 .708 0l2.914 2.915a.5.5 0 0 1-.707.707l-2.915-2.914a.5.5 0 0 1 0-.708M3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026z"
+              />
+            </svg>
+            Practice Essential Tools
+          </div>
+          <div class="ms-4 border-end">
+            <svg
+              class="bi bi-people-fill me-2"
+              fill="rgb(0, 169, 244)"
+              height="1.85em"
+              viewBox="0 0 16 16"
+              width="1.85em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"
+              />
+            </svg>
+            Designed By Industry Experts
+          </div>
+          <div class="ms-4">
+            <svg
+              class="bi bi-globe-central-south-asia me-2"
+              fill="rgb(0, 169, 244)"
+              height="1.85em"
+              viewBox="0 0 16 16"
+              width="1.85em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0M4.882 1.731a.48.48 0 0 0 .14.291.487.487 0 0 1-.126.78l-.291.146a.7.7 0 0 0-.188.135l-.48.48a1 1 0 0 1-1.023.242l-.02-.007a1 1 0 0 0-.462-.04 7 7 0 0 1 2.45-2.027m-3 9.674.86-.216a1 1 0 0 0 .758-.97v-.184a1 1 0 0 1 .445-.832l.04-.026a1 1 0 0 0 .152-1.54L3.121 6.621a.414.414 0 0 1 .542-.624l1.09.818a.5.5 0 0 0 .523.047.5.5 0 0 1 .724.447v.455a.8.8 0 0 0 .131.433l.795 1.192a1 1 0 0 1 .116.238l.73 2.19a1 1 0 0 0 .949.683h.058a1 1 0 0 0 .949-.684l.73-2.189a1 1 0 0 1 .116-.238l.791-1.187A.45.45 0 0 1 11.743 8c.16 0 .306.084.392.218.557.875 1.63 2.282 2.365 2.282l.04-.001a7.003 7.003 0 0 1-12.658.905Z"
+              />
+            </svg>
+            Get Real-world Experience
+          </div>
         </div>
         <div class="row py-5 row-cols-1 row-cols-lg-4">
-            <div class="col d-flex align-items-start hangicon2">
-                <div>
-                    <h5 class="fs-5 pe-2 ps-3 pt-4 text-body-emphasis">Real-Time Inventory Management with
-                        Salesforce</h5>
-                    <p class="pe-2 ps-3">In this project, you will keep track of the
-                        inventory and product purchases in real-
-                        time to keep products well-stocked. Key
-                        points in the project are tracking customer
-                        information, updating inventory, and
-                        keeping track of sold products.</p>
-                </div>
+          <div class="col d-flex align-items-start hangicon2">
+            <div>
+              <h5 class="fs-5 pe-2 ps-3 pt-4 text-body-emphasis">
+                Real-Time Inventory Management with Salesforce
+              </h5>
+              <p class="pe-2 ps-3">
+                In this project, you will keep track of the inventory and
+                product purchases in real- time to keep products well-stocked.
+                Key points in the project are tracking customer information,
+                updating inventory, and keeping track of sold products.
+              </p>
             </div>
-            <div class="col d-flex align-items-start hangicon2">
-                <div>
-                    <h5 class="fs-5 pe-2 ps-3 pt-4 text-body-emphasis">Creating a Library Management System with
-                        Salesforce</h5>
-                    <p class="pe-2 ps-3">
-                        This project involves tracking books to meet
-                        needs and make timely returns. The project
-                        revolves around creating a Salesforce Apex
-                        platform, customizing Salesforce, and
-                        analyzing data for Salesforce library
-                        management with reports.</p>
-                </div>
+          </div>
+          <div class="col d-flex align-items-start hangicon2">
+            <div>
+              <h5 class="fs-5 pe-2 ps-3 pt-4 text-body-emphasis">
+                Creating a Library Management System with Salesforce
+              </h5>
+              <p class="pe-2 ps-3">
+                This project involves tracking books to meet needs and make
+                timely returns. The project revolves around creating a
+                Salesforce Apex platform, customizing Salesforce, and analyzing
+                data for Salesforce library management with reports.
+              </p>
             </div>
-            <div class="col d-flex align-items-start hangicon2">
-                <div>
-                    <h5 class="fs-5 pe-2 ps-3 pt-4 text-body-emphasis">Understanding Salesforce Administrator and
-                        Developer Concepts</h5>
-                    <p class="pe-2 ps-3">The project will familiarize you with aspects
-                        of Salesforce and introduce you to cloud
-                        computing scenarios. You will also get to
-                        work on extending access with permission
-                        sets, bulk reporting of data with the data
-                        loader, and importing data.</p>
-                </div>
+          </div>
+          <div class="col d-flex align-items-start hangicon2">
+            <div>
+              <h5 class="fs-5 pe-2 ps-3 pt-4 text-body-emphasis">
+                Understanding Salesforce Administrator and Developer Concepts
+              </h5>
+              <p class="pe-2 ps-3">
+                The project will familiarize you with aspects of Salesforce and
+                introduce you to cloud computing scenarios. You will also get to
+                work on extending access with permission sets, bulk reporting of
+                data with the data loader, and importing data.
+              </p>
             </div>
+          </div>
         </div>
-    </div>
+      </div>
 
-<!-- FAQ -->
-    <div class="container px-4 py-5">
-        <div class=""><h1 class="mb-4">Salesforce Training Course <span
-                class="text">FAQs</span></h1>
+      <!-- FAQ -->
+      <div class="container px-4 py-5">
+        <div class="">
+          <h1 class="mb-4">
+            Salesforce Training Course <span class="text">FAQs</span>
+          </h1>
 
-            <div class="d-flex flex-column flex-md-row gap-4 py-md-3 flex-wrap align-items-center justify-content-center">
-                <ul class="dropdown position-static d-grid gap-1 p-2 px-0 rounded-0 mx-0 shadow w-100"
-                    data-bs-theme="light">
-                    <li class="d-flex align-items-center"><a class="dropdown-item rounded-0 p-2 fw-medium">Why should I
-                        learn Salesforce from iLearnings?</a>
-                        <svg class="bi bi-chevron-down me-3 svg-pointer drop-icon drop-icon" fill="currentColor" height="16"
-                             viewBox="0 0 16 16"
-                             width="16" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
-                                  fill-rule="evenodd"/>
-                        </svg>
-                    </li>
-                
-                    <li class="drop-info">
-                        <p class="dropdown-p p-2 py-0">iLearning’s Salesforce Certification Training Course offers a
-                            comprehensive learning approach for mastering developer and administrator skills in
-                            Salesforce. As part of the training, you will learn the fundamentals, Visualforce, Apex
-                            language, dashboard, process automation, and more. The entire program is in line with
-                            Salesforce Developer Certification exams.
+          <div
+            class="d-flex flex-column flex-md-row gap-4 py-md-3 flex-wrap align-items-center justify-content-center"
+          >
+            <ul
+              class="dropdown position-static d-grid gap-1 p-2 px-0 rounded-0 mx-0 shadow w-100"
+              data-bs-theme="light"
+            >
+              <li class="d-flex align-items-center">
+                <a class="dropdown-item rounded-0 p-2 fw-medium"
+                  >Why should I learn Salesforce from iLearnings?</a
+                >
+                <svg
+                  class="bi bi-chevron-down me-3 svg-pointer drop-icon drop-icon"
+                  fill="currentColor"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </li>
 
-                            You will be working on real-time projects and assignments that have high relevance in the
-                            corporate world, and the Salesforce Admin Course Curriculum is designed by industry experts.
-                            Upon completion of the training, you can apply for some of the best jobs in top MNCs around
-                            the world at top salaries. iLearning offers lifetime access to videos, study materials,
-                            24/7 support, and material upgrades to the latest version at no extra fee. Hence, it is
-                            clearly a one-time investment.</p>
-                    </li>
-                    <li>
-                        <hr class="dropdown-divider">
-                    </li>
-                    <li class="d-flex align-items-center"><a class="dropdown-item rounded-0 p-2 fw-medium">What are the
-                        other courses iLearning offers in the domain of Salesforce?</a>
-                        <svg class="bi bi-chevron-down me-3 svg-pointer drop-icon" fill="currentColor" height="16"
-                             viewBox="0 0 16 16"
-                             width="16" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
-                                  fill-rule="evenodd"/>
-                        </svg>
-                    </li>
-                
-                    <li class="drop-info">
-                        <p class="dropdown-p p-2 py-0"> iLearning offers courses on marketing cloud, platform developer 1 and
-                            2, Apex integration, Salesforce Lightning, and a master’s program in the Salesforce domain.
-                        </p>
-                    </li>
-                    <li>
-                        <hr class="dropdown-divider">
-                    </li>
-                    <li class="d-flex align-items-center"><a class="dropdown-item rounded-0 p-2 fw-medium"> What is
-                        Salesforce?
-                    </a>
-                        <svg class="bi bi-chevron-down me-3 svg-pointer drop-icon" fill="currentColor" height="16"
-                             viewBox="0 0 16 16"
-                             width="16" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
-                                  fill-rule="evenodd"/>
-                        </svg>
-                    </li>
-    
-                    <li class="drop-info">
-                        <p class="dropdown-p p-2 py-0">This is one of the best customer relationship management (CRM) solutions,
-                            which brings companies and their customers together. This tool is focused on customer
-                            service, marketing automation, analytics, and application development. It was founded on
-                            February 1999 by Marc Benioff.
-                        </p>
-                    </li>
-                    <li>
-                        <hr class="dropdown-divider">
-                    </li>
-                    <li class="d-flex align-items-center"><a class="dropdown-item rounded-0 p-2 fw-medium">What
-                        are the different types of job positions available after iLearning’s Salesforce Certification
-                        Training Course?</a>
+              <li class="drop-info">
+                <p class="dropdown-p p-2 py-0">
+                  iLearning’s Salesforce Certification Training Course offers a
+                  comprehensive learning approach for mastering developer and
+                  administrator skills in Salesforce. As part of the training,
+                  you will learn the fundamentals, Visualforce, Apex language,
+                  dashboard, process automation, and more. The entire program is
+                  in line with Salesforce Developer Certification exams. You
+                  will be working on real-time projects and assignments that
+                  have high relevance in the corporate world, and the Salesforce
+                  Admin Course Curriculum is designed by industry experts. Upon
+                  completion of the training, you can apply for some of the best
+                  jobs in top MNCs around the world at top salaries. iLearning
+                  offers lifetime access to videos, study materials, 24/7
+                  support, and material upgrades to the latest version at no
+                  extra fee. Hence, it is clearly a one-time investment.
+                </p>
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li class="d-flex align-items-center">
+                <a class="dropdown-item rounded-0 p-2 fw-medium"
+                  >What are the other courses iLearning offers in the domain of
+                  Salesforce?</a
+                >
+                <svg
+                  class="bi bi-chevron-down me-3 svg-pointer drop-icon"
+                  fill="currentColor"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </li>
 
-                        <svg class="bi bi-chevron-down me-3 svg-pointer drop-icon" fill="currentColor" height="16"
-                             viewBox="0 0 16 16"
-                             width="16" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
-                                  fill-rule="evenodd"/>
-                        </svg>
-                    </li>
-        
-                    <li class="drop-info">
-                        <p class="dropdown-p p-2 py-0">Below are some of the popular job roles for this CRM tool:<br>
-                            • Salesforce admin<br>
-                            • Salesforce developer<br>
-                            • Salesforce sales executive<br>
-                            • Salesforce marketing specialist and Salesforce consultant<br>
-                        </p>
-                        
-                    </li>
-                    <li>
-                        <hr class="dropdown-divider">
-                    </li>
-                    <li class="d-flex align-items-center"><a class="dropdown-item rounded-0 p-2 fw-medium">What
-                        qualifications are necessary to become a Salesforce Certified administrator and app builder?</a>
+              <li class="drop-info">
+                <p class="dropdown-p p-2 py-0">
+                  iLearning offers courses on marketing cloud, platform
+                  developer 1 and 2, Apex integration, Salesforce Lightning, and
+                  a master’s program in the Salesforce domain.
+                </p>
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li class="d-flex align-items-center">
+                <a class="dropdown-item rounded-0 p-2 fw-medium">
+                  What is Salesforce?
+                </a>
+                <svg
+                  class="bi bi-chevron-down me-3 svg-pointer drop-icon"
+                  fill="currentColor"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </li>
 
-                        <svg class="bi bi-chevron-down me-3 svg-pointer drop-icon" fill="currentColor" height="16"
-                             viewBox="0 0 16 16"
-                             width="16" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
-                                  fill-rule="evenodd"/>
-                        </svg>
-                    </li>
-                
-                    <li class="drop-info">
-                        <p class="dropdown-p p-2 py-0">For this, you need to pass Salesforce app builder and Salesforce
-                            administrator certification exams. To do this, follow these steps:<br>
-                      
-                            • Complete iLearning’s Salesforce Training and certification<br>
-                            • Gain hands-on experience by working on industry-specific projects<br>
-                            • Register for two exams on Salesforce.com<br>
-                            • Pass the exams!
-                        </p>
-                    </li>
-                    <li>
-                        <hr class="dropdown-divider">
-                    </li>
-                    <li class="d-flex align-items-center"><a class="dropdown-item rounded-0 p-2 fw-medium">What
-                        are the different types of job positions available after iLearning’s Salesforce Certification
-                        Training Course?</a>
+              <li class="drop-info">
+                <p class="dropdown-p p-2 py-0">
+                  This is one of the best customer relationship management (CRM)
+                  solutions, which brings companies and their customers
+                  together. This tool is focused on customer service, marketing
+                  automation, analytics, and application development. It was
+                  founded on February 1999 by Marc Benioff.
+                </p>
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li class="d-flex align-items-center">
+                <a class="dropdown-item rounded-0 p-2 fw-medium"
+                  >What are the different types of job positions available after
+                  iLearning’s Salesforce Certification Training Course?</a
+                >
 
-                        <svg class="bi bi-chevron-down me-3 svg-pointer drop-icon" fill="currentColor" height="16"
-                             viewBox="0 0 16 16"
-                             width="16" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
-                                  fill-rule="evenodd"/>
-                        </svg>
-                    </li>
-                
+                <svg
+                  class="bi bi-chevron-down me-3 svg-pointer drop-icon"
+                  fill="currentColor"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </li>
 
-                        <hr class="dropdown-divider">
-                    </li>
-                    <li class="d-flex align-items-center"><a class="dropdown-item rounded-0 p-2 fw-medium">What
-                        are the top companies hiring Salesforce developers?</a>
-                        <svg class="bi bi-chevron-down me-3 svg-pointer drop-icon" fill="currentColor" height="16"
-                             viewBox="0 0 16 16"
-                             width="16" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
-                                  fill-rule="evenodd"/>
-                        </svg>
-                    </li>
-                
-                    <li class="drop-info p-2 py-0">
-                        <p class="dropdown-p p-0">
-                            Some of the top companies that hire Salesforce developers are TCS, Accenture, Cognizant,
-                            Capgemini, Infosys, Salesforce, Deloitte, etc.</p>
-                    </li>
-                    <li>
-                        <hr class="dropdown-divider ">
-                    </li>
-                    <li class="d-flex align-items-center"><a class="dropdown-item rounded-0 p-2 fw-medium">What
-                        if I miss a class?</a>
-                        <svg class="bi bi-chevron-down me-3 svg-pointer drop-icon" fill="currentColor" height="16"
-                             viewBox="0 0 16 16"
-                             width="16" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
-                                  fill-rule="evenodd"/>
-                        </svg>
-                    </li>
-                
-                    <li class="drop-info p-2 p-2 py-0">
-                        <p class="dropdown-p p-0">
-                            If you end up missing a class, then you can contact our support team. Our team will further
-                            assist you in scheduling another class for the same topic so that you can catch up with the
-                            rest.
+              <li class="drop-info">
+                <p class="dropdown-p p-2 py-0">
+                  Below are some of the popular job roles for this CRM tool:<br />
+                  • Salesforce admin<br />
+                  • Salesforce developer<br />
+                  • Salesforce sales executive<br />
+                  • Salesforce marketing specialist and Salesforce consultant<br />
+                </p>
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li class="d-flex align-items-center">
+                <a class="dropdown-item rounded-0 p-2 fw-medium"
+                  >What qualifications are necessary to become a Salesforce
+                  Certified administrator and app builder?</a
+                >
 
-                            Also, all the sessions are recorded and shared with all participants in the learning
-                            management system(LMS). You can refer to these recorded sessions for the missed class.</p>
-                    </li>
-                </ul>
-            </div>
+                <svg
+                  class="bi bi-chevron-down me-3 svg-pointer drop-icon"
+                  fill="currentColor"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </li>
+
+              <li class="drop-info">
+                <p class="dropdown-p p-2 py-0">
+                  For this, you need to pass Salesforce app builder and
+                  Salesforce administrator certification exams. To do this,
+                  follow these steps:<br />
+
+                  • Complete iLearning’s Salesforce Training and
+                  certification<br />
+                  • Gain hands-on experience by working on industry-specific
+                  projects<br />
+                  • Register for two exams on Salesforce.com<br />
+                  • Pass the exams!
+                </p>
+              </li>
+
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li class="d-flex align-items-center">
+                <a class="dropdown-item rounded-0 p-2 fw-medium"
+                  >What are the top companies hiring Salesforce developers?</a
+                >
+                <svg
+                  class="bi bi-chevron-down me-3 svg-pointer drop-icon"
+                  fill="currentColor"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </li>
+
+              <li class="drop-info p-2 py-0">
+                <p class="dropdown-p p-0">
+                  Some of the top companies that hire Salesforce developers are
+                  TCS, Accenture, Cognizant, Capgemini, Infosys, Salesforce,
+                  Deloitte, etc.
+                </p>
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li class="d-flex align-items-center">
+                <a class="dropdown-item rounded-0 p-2 fw-medium"
+                  >What if I miss a class?</a
+                >
+                <svg
+                  class="bi bi-chevron-down me-3 svg-pointer drop-icon"
+                  fill="currentColor"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  width="16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </li>
+
+              <li class="drop-info p-2 py-0">
+                <p class="dropdown-p p-0">
+                  If you end up missing a class, then you can contact our
+                  support team. Our team will further assist you in scheduling
+                  another class for the same topic so that you can catch up with
+                  the rest. Also, all the sessions are recorded and shared with
+                  all participants in the learning management system(LMS). You
+                  can refer to these recorded sessions for the missed class.
+                </p>
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="overview-left"></div>
-    </div>
-    <!--footer-->
-    <footer class="py-5">
+      </div>
+      <!--footer-->
+      <footer class="py-5">
         <div class="row">
-            <div class="col-6 col-md-2 mb-3">
-                <h5>Resources</h5>
-                <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a class="nav-link p-0 roboto-thin text-white" href="#">Home</a>
-                    </li>
-                    <li class="nav-item mb-2"><a class="nav-link p-0 roboto-thin text-white" href="#">MEDIA</a>
-                    </li>
-                    <li class="nav-item mb-2"><a class="nav-link p-0 roboto-thin text-white"
-                                                 href="#">Pricing</a></li>
-                    <li class="nav-item mb-2"><a class="nav-link p-0 roboto-thin text-white" href="#">REFUND
-                        POLICY</a></li>
-                    <li class="nav-item mb-2"><a class="nav-link p-0 roboto-thin text-white" href="#">PRIVACY
-                        POLICY</a></li>
-                </ul>
-            </div>
-
-            <div class="col-6 col-md-2 mb-3">
-                <h5>Connect</h5>
-                <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a class="nav-link p-0 roboto-thin text-white" href="#">TERMS OF
-                        USE</a></li>
-                    <li class="nav-item mb-2"><a class="nav-link p-0 roboto-thin text-white" href="#">CONTACT
-                        US</a></li>
-                    <li class="nav-item mb-2"><a class="nav-link p-0 roboto-thin text-white" href="#">BLOG</a>
-                    </li>
-                    <li class="nav-item mb-2"><a class="nav-link p-0 roboto-thin text-white" href="#">INTERVIEW
-                        QUESTIONS</a></li>
-                    <li class="nav-item mb-2"><a class="nav-link p-0 roboto-thin text-white"
-                                                 href="#">TUTORIALS</a></li>
-                </ul>
-            </div>
-
-            <div class="col-6 col-md-2 mb-3">
-                <h5>Discover</h5>
-                <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a class="nav-link p-0 roboto-thin text-white"
-                                                 href="#">COMMUNITY</a></li>
-                    <li class="nav-item mb-2"><a class="nav-link p-0 roboto-thin text-white" href="#">CITY
-                        SITEMAP</a></li>
-                    <li class="nav-item mb-2"><a class="nav-link p-0 roboto-thin text-white" href="#">BECOME AN
-                        INSTRUCTOR</a></li>
-                    <li class="nav-item mb-2"><a class="nav-link p-0 roboto-thin text-white" href="#">FAQs</a>
-                    </li>
-                    <li class="nav-item mb-2"><a class="nav-link p-0 roboto-thin text-white" href="#">About</a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="col-md-5 offset-md-1 mb-3">
-                <form>
-                    <h5>Subscribe to our newsletter</h5>
-                    <p>Monthly digest of what's new and exciting from us.</p>
-                    <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                        <label class="visually-hidden" for="newsletter1">Email address</label>
-                        <input class="form-control" id="newsletter1" placeholder="Email address" type="text">
-                        <button class="btn btn-primary" type="button">Subscribe</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-
-        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 p-lg-4 border-top">
-            <p>© Copyright 2011 - 2024 ilearnings career & consulting pvt ltd.</p>
-            <ul class="list-unstyled d-flex">
-                <li class="ms-3"><a class="link-body-emphasis" href="#">
-                    <svg class="bi bi-twitter-x" fill="white" height="24" viewBox="0 0 16 16"
-                         width="24" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
-                    </svg>
-                </a></li>
-                <li class="ms-3"><a class="link-body-emphasis" href="#">
-                    <svg class="bi bi-instagram" fill="white" height="24" viewBox="0 0 16 16"
-                         width="24" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
-                    </svg>
-                </a></li>
-                <li class="ms-3"><a class="link-body-emphasis" href="#">
-                    <svg class="bi bi-facebook" fill="white" height="24" viewBox="0 0 16 16"
-                         width="24" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
-                    </svg>
-                </a></li>
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Resources</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a class="nav-link p-0 roboto-thin text-white" href="#">Home</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a class="nav-link p-0 roboto-thin text-white" href="#"
+                  >MEDIA</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a class="nav-link p-0 roboto-thin text-white" href="#"
+                  >Pricing</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a class="nav-link p-0 roboto-thin text-white" href="#"
+                  >REFUND POLICY</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a class="nav-link p-0 roboto-thin text-white" href="#"
+                  >PRIVACY POLICY</a
+                >
+              </li>
             </ul>
-        </div>
-    </footer>
+          </div>
 
-</main>
-<script crossorigin="anonymous"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="index.js"></script>
-</body>
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Connect</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a class="nav-link p-0 roboto-thin text-white" href="#"
+                  >TERMS OF USE</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a class="nav-link p-0 roboto-thin text-white" href="#"
+                  >CONTACT US</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a class="nav-link p-0 roboto-thin text-white" href="#">BLOG</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a class="nav-link p-0 roboto-thin text-white" href="#"
+                  >INTERVIEW QUESTIONS</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a class="nav-link p-0 roboto-thin text-white" href="#"
+                  >TUTORIALS</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Discover</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a class="nav-link p-0 roboto-thin text-white" href="#"
+                  >COMMUNITY</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a class="nav-link p-0 roboto-thin text-white" href="#"
+                  >CITY SITEMAP</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a class="nav-link p-0 roboto-thin text-white" href="#"
+                  >BECOME AN INSTRUCTOR</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a class="nav-link p-0 roboto-thin text-white" href="#">FAQs</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a class="nav-link p-0 roboto-thin text-white" href="#"
+                  >About</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form>
+              <h5>Subscribe to our newsletter</h5>
+              <p>Monthly digest of what's new and exciting from us.</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label class="visually-hidden" for="newsletter1"
+                  >Email address</label
+                >
+                <input
+                  class="form-control"
+                  id="newsletter1"
+                  placeholder="Email address"
+                  type="text"
+                />
+                <button class="btn btn-primary" type="button">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div
+          class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 p-lg-4 border-top"
+        >
+          <p>© Copyright 2011 - 2024 ilearnings career & consulting pvt ltd.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3">
+              <a class="link-body-emphasis" href="#">
+                <svg
+                  class="bi bi-twitter-x"
+                  fill="white"
+                  height="24"
+                  viewBox="0 0 16 16"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li class="ms-3">
+              <a class="link-body-emphasis" href="#">
+                <svg
+                  class="bi bi-instagram"
+                  fill="white"
+                  height="24"
+                  viewBox="0 0 16 16"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li class="ms-3">
+              <a class="link-body-emphasis" href="#">
+                <svg
+                  class="bi bi-facebook"
+                  fill="white"
+                  height="24"
+                  viewBox="0 0 16 16"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </main>
+    <script
+      crossorigin="anonymous"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    ></script>
+    <script src="index.js"></script>
+  </body>
 </html>

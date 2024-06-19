@@ -126,10 +126,11 @@ ul {
   font-weight: 400;
   list-style: none;
   overflow: hidden;
-  transition: height ease-in;
+  
 }
 .dropdown-p.active {
   height: auto;
+  animation: accordion-open 500ms linear ;
 }
 
 .drop-icon {
@@ -245,5 +246,16 @@ body {
   body {
     font-size: 10px !important;
     font-weight: 500;
+  }
+}
+
+@keyframes accordion-open {
+  0% {
+    height: 0;
+    transform:scaleY();
+  }
+  100% {
+    height: auto;
+    transform:scaleY(1);
   }
 }
