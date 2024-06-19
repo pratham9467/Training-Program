@@ -5,7 +5,6 @@ const dropIcon = document.querySelectorAll(".drop-icon");
 dropItem.forEach((item, index) => {
   item.addEventListener("click", () => {
     dropDown[index].classList.toggle("active");
-
-    dropIcon.classList[index].toggle("active");
+    dropIcon[index].classList.toggle("active");
   });
 });
