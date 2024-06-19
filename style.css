@@ -90,7 +90,7 @@ ul {
     display: flex;
     flex-direction: column;
     height: auto;
-    width: 100vw;
+    width: 50vw;
 }
 
 .overview-Right h1 {
@@ -109,7 +109,6 @@ ul {
 
 .dropdown-divider {
     border-bottom: 1px solid lightgrey;
-
 }
 
 .dropdown-item {
@@ -120,8 +119,9 @@ ul {
     cursor: pointer;
 }
 
+
 .dropdown-p {
-    height: auto;
+    height: 0;
     width: auto;
     padding: 0;
     margin: 0;
@@ -129,12 +129,20 @@ ul {
     font-weight: 400;
     list-style: none;
     overflow: hidden;
-    text-overflow: ellipsis;
+   
+}
+.dropdown-p.active{
+    height: 100px;
+
 }
 
-/*.drop-info {*/
-/*    display: none;*/
-/*}*/
+.drop-icon{
+  transform: rotate(0deg);
+}
+
+.drop-icon.active{
+  transform: rotate(-180deg);
+}
 
 footer {
     padding: 0 7vw;
@@ -244,3 +252,4 @@ body {
         font-weight: 500;
     }
 }
+
