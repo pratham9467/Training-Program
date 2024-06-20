@@ -87,7 +87,7 @@ ul {
 
 .overview {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   height: auto;
   width: 50vw;
 }
