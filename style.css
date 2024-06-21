@@ -110,7 +110,6 @@ ul {
     height: 80vh;
     position: sticky;
     top: 0;
-
 }
 
 .deco {
@@ -151,8 +150,6 @@ ul {
     font-weight: 400;
     list-style: none;
     overflow: hidden;
-
-
 }
 
 .dropdown-p.active {
