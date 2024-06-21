@@ -22,7 +22,7 @@ header {
 }
 
 .keyFeature {
-    box-shadow: 0px 1px 0px rgba(159, 152, 152, 0.33);
+    box-shadow: 0 1px 0 rgba(159, 152, 152, 0.33);
 }
 
 .text {
@@ -56,7 +56,7 @@ ul {
 
 .hangicon2 {
     border-top: 4px solid rgb(0, 169, 244);
-    box-shadow: 0px 1px 1px 1px rgba(159, 152, 152, 0.33);
+    box-shadow: 0 1px 1px 1px rgba(159, 152, 152, 0.33);
     margin: 0 20px;
     width: 330px;
 }
