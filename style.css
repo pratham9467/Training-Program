@@ -71,14 +71,14 @@ ul {
 
 .skill {
     border-top: 4px solid rgb(0, 169, 244);
-    box-shadow: 0 1px 1px 1px rgba(159, 152, 152, 0.33);
+    box-shadow: 1px 0 1px rgba(159, 152, 152, 0.33);
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
 }
 
 .skills {
     border-left: 5px solid rgb(0, 169, 244);
-    box-shadow: 1px 0 1px 1px rgba(159, 152, 152, 0.33);
+    box-shadow: 1px 1px 1px rgba(159, 152, 152, 0.33);
     height: 50px;
     width: 180px;
     text-align: center;
@@ -90,11 +90,20 @@ ul {
     background-color: rgb(0, 169, 244);
 }
 
-#navigator {
-    border-top: 5px solid rgb(0, 169, 244);
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    margin-top: 1rem;
+.navigator {
+    height: 10vh;
+    width: auto;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navigator-box {
+    box-shadow: 0 1px 0 rgba(159, 152, 152, 0.33);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 10px;
 }
 
 .overview {
